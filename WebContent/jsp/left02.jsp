@@ -18,7 +18,9 @@
 </head>
 <body>
 <div>
-		<input id="discover" type="image" src="../img/discover.png" onclick="location.href='/webpoject/view.do'"/>
+
+
+		<input id="discover" type="image" src="../img/discover.png"/>
 		<img id="mainimg" alt="" src="../img/airplane.png" style="max-width: 100%; max-height: 600px; height: 100%">
 </div>
 </body>
