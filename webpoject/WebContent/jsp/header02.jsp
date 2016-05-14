@@ -29,7 +29,7 @@
         </div>
         <button type="button" class="btn btn-default">
           <span class="glyphicon glyphicon-search"></span> Search
-        </button>
+        </button><!-- 버튼 긁어서 쓰기 -->
 
       </form>
       
