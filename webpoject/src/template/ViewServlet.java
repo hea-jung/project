@@ -20,7 +20,7 @@ public class ViewServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		//String action = request.getParameter("action");
 		//System.out.println(action);
-//		String pathurl = request.getParameter("pathurl");
+		String pathurl = request.getParameter("pathurl");
 //		System.out.println(pathurl);
 		/*String url = "";
 		if(action == null){
@@ -30,8 +30,8 @@ public class ViewServlet extends HttpServlet {
 				url="/layout/memberLayout.jsp";
 			}
 		}*/
-		System.out.println("들어는 오니?");
-		request.setAttribute("pathurl", "../jsp/ticketchoise.jsp");
+		System.out.println("view.do"+pathurl);
+		request.setAttribute("pathurl", pathurl);
 		RequestDispatcher rd = request.getRequestDispatcher("/layout/mainLayout.jsp");
 		rd.forward(request, response);
 	}

@@ -18,8 +18,8 @@
 </head>
 <body>
 <div>
-		<input id="discover" type="image" src="../img/discover.png" onclick="location.href='/webpoject/view.do'"/>
-		<img id="mainimg" alt="" src="../img/airplane.png" style="max-width: 100%; max-height: 600px; height: 100%">
+		<input id="discover" type="image" src="/webpoject/img/discover.png" onclick="location.href='/webpoject/view.do?pathurl=../jsp/ticketchoise.jsp'"/>
+		<img id="mainimg" alt="" src="/webpoject/img/airplane.png" style="max-width: 100%; max-height: 600px; height: 100%">
 </div>
 </body>
 </html>
